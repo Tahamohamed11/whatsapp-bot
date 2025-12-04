@@ -1,0 +1,15 @@
+# تجاهل مكتبات نود الضخمة
+node_modules/
+
+# تجاهل ملفات الجلسة والبيانات الحساسة (للأمان)
+session.json
+session.data.json
+BotSession.data.json
+*.data.json
+.node-persist/
+_IGNORE_BotSession/
+_IGNORE_session/
+
+# تجاهل ملفات النظام والبيئة
+.env
+.DS_Store
